@@ -10,7 +10,8 @@ class Stack:
         self.array.pop()
 
     def traverse(self):
-        print(self.array)
+        for i in range(len(self.array)):
+            print(self.array[i] )
 
     def tos(self):
         print(self.array[len(self.array)-1])
