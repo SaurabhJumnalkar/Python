@@ -1,6 +1,6 @@
 
 class Stack:
-    def __init__(self) -> None:
+    def __init__(self):
         self.array = []
 
     def push(self):
@@ -11,7 +11,7 @@ class Stack:
 
     def traverse(self):
         for i in range(len(self.array)):
-            print(self.array[i] )
+            print(self.array[i],end=" " )
 
     def tos(self):
         print(self.array[len(self.array)-1])
